@@ -64,6 +64,9 @@ To evaluate the trained models, run the evaluation.py script located in the src 
 
 python src/evaluation.py
 
-
-# autotextification_nlp
-# autotextification_nlp
+# Donwload files
+There are files missing in the folders:
+The dataset (included in folder./data): https://drive.google.com/file/d/1tBUEAdSW5sPkd4d-cUE910xGpq26QUsu/view?usp=sharing
+The preprocesses train dataset (included in folder ./data): https://drive.google.com/file/d/12YFSQ2wouaXWDRSJFz7fBE7gUooXGsKQ/view?usp=sharing
+The tfidf vectorizer (included in ./models): https://drive.google.com/file/d/10DEO_urIJZh2lMHAq6vaF3d-ijjMg2uO/view?usp=sharing
+The support vector machine model (included in ./models): https://drive.google.com/file/d/1B2ghQ2xuP9GyB1-av3zkMx2gn7AWxdPf/view?usp=sharing
