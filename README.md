@@ -27,6 +27,7 @@ To preprocess, rum the preprocess.py script located in the src directory. The da
 
 ```bash
 python src/preprocess.py 
+```bash
 
 # Training Models
 
