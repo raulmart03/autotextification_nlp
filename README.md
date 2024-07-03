@@ -25,9 +25,7 @@ Evaluation results include performance metrics such as accuracy, recall, precisi
 # Preprocess 
 To preprocess, rum the preprocess.py script located in the src directory. The data preprocessing performs several key tasks to preprocess the dataset stored in a .jsonl file, tokenize the text data, and split it into training and test sets. Finally, it saves the processed data into Parquet files. 
 
-```bash
 python src/preprocess.py 
-```bash
 
 # Training Models
 
