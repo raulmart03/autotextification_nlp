@@ -10,31 +10,6 @@ This project aims to train and evaluate several text classification models using
 
 Evaluation results include performance metrics such as accuracy, recall, precision, and F1-score. It also includes confusion matrices and comparative charts.
 
-## Project Structure
-├── data
-│ ├── preprocessed_train_dataset.parquet
-│ ├── preprocessed_test_dataset.parquet
-| └── old_train.jsonl
-├── models
-│ ├── logistic_regression_model.joblib
-│ ├── support_vector_machine_model.joblib
-│ ├── multinomialNB_model.joblib
-│ └── tfidf_vectorizer.joblib
-├── results
-│ ├── lg_model.txt
-│ ├── svm_model.txt
-│ ├── mnb_model.txt
-│ ├── lg_model_conf_matrix.png
-│ ├── svm_model_conf_matrix.png
-│ ├── mnb_model_conf_matrix.png
-│ └── metrics_comparison.png
-├── src
-│ ├── train.py
-| ├── preprocess.py
-│ └── evaluation.py
-├── README.md
-└── requirements.tx
-
 ## Requirements
 
 - Python 3.10
@@ -50,6 +25,7 @@ Evaluation results include performance metrics such as accuracy, recall, precisi
 # Preprocess 
 To preprocess, rum the preprocess.py script located in the src directory. The data preprocessing performs several key tasks to preprocess the dataset stored in a .jsonl file, tokenize the text data, and split it into training and test sets. Finally, it saves the processed data into Parquet files. 
 
+```bash
 python src/preprocess.py 
 
 # Training Models
